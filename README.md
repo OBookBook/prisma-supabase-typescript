@@ -14,7 +14,7 @@ npx tsc --init
 
 ```shell
 npx prisma init
-
+npx prisma migrate dev --name init
 ```
 
 ## Supabase CLI
