@@ -16,6 +16,12 @@ npx tsc --init
 npx prisma init
 npx prisma migrate dev --name init
 npx prisma migrate dev --name add_likes_column
+
+# 初期化
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+npx prisma migrate dev --name init
+npm run prisma:seed
 ```
 
 ## Supabase CLI
