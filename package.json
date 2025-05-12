@@ -7,7 +7,8 @@
     "typecheck": "tsc --noEmit",
     "dev": "vite-node index.ts",
     "prisma:format": "prisma format",
-    "prisma:lint": "prisma validate"
+    "prisma:lint": "prisma validate",
+    "prisma:seed": "vite-node prisma/seed.ts"
   },
   "author": "naobe",
   "license": "ISC",
