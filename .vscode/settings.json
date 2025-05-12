@@ -1,0 +1,8 @@
+{
+  // Formatter settings
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  // Specify the TypeScript version to use
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
