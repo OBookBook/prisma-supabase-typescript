@@ -15,6 +15,7 @@ npx tsc --init
 ```shell
 npx prisma init
 npx prisma migrate dev --name init
+npx prisma migrate dev --name add_likes_column
 ```
 
 ## Supabase CLI
