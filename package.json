@@ -9,6 +9,7 @@
   "author": "naobe",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^22.15.17",
     "typescript": "^5.8.3"
   }
 }
